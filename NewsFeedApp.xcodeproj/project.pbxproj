@@ -11,6 +11,11 @@
 		1F2CC4BA2745218000264765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CC4B92745218000264765 /* ContentView.swift */; };
 		1F2CC4BC2745218200264765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2CC4BB2745218200264765 /* Assets.xcassets */; };
 		1F2CC4BF2745218200264765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2CC4BE2745218200264765 /* Preview Assets.xcassets */; };
+		1F2CC4C8274524CB00264765 /* NewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CC4C7274524CB00264765 /* NewsFeedView.swift */; };
+		1F2CC4CA274524DE00264765 /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CC4C9274524DE00264765 /* UrlImageView.swift */; };
+		1F2CC4CE274524FA00264765 /* NewsFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CC4CD274524FA00264765 /* NewsFeedModel.swift */; };
+		1F2CC4D02745250800264765 /* UrlImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CC4CF2745250800264765 /* UrlImageModel.swift */; };
+		1F5FFB452745288600B3A84A /* UrlWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5FFB442745288600B3A84A /* UrlWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		1F2CC4B92745218000264765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F2CC4BB2745218200264765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2CC4BE2745218200264765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F2CC4C7274524CB00264765 /* NewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedView.swift; sourceTree = "<group>"; };
+		1F2CC4C9274524DE00264765 /* UrlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		1F2CC4CD274524FA00264765 /* NewsFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedModel.swift; sourceTree = "<group>"; };
+		1F2CC4CF2745250800264765 /* UrlImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageModel.swift; sourceTree = "<group>"; };
+		1F5FFB442745288600B3A84A /* UrlWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		1F2CC4B62745218000264765 /* NewsFeedApp */ = {
 			isa = PBXGroup;
 			children = (
+				1F2CC4C62745247900264765 /* View */,
+				1F2CC4C52745246D00264765 /* Model */,
 				1F2CC4B72745218000264765 /* NewsFeedAppApp.swift */,
 				1F2CC4B92745218000264765 /* ContentView.swift */,
 				1F2CC4BB2745218200264765 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				1F2CC4BE2745218200264765 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F2CC4C52745246D00264765 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F2CC4CD274524FA00264765 /* NewsFeedModel.swift */,
+				1F2CC4CF2745250800264765 /* UrlImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F2CC4C62745247900264765 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F2CC4C7274524CB00264765 /* NewsFeedView.swift */,
+				1F2CC4C9274524DE00264765 /* UrlImageView.swift */,
+				1F5FFB442745288600B3A84A /* UrlWebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2CC4C8274524CB00264765 /* NewsFeedView.swift in Sources */,
+				1F2CC4CE274524FA00264765 /* NewsFeedModel.swift in Sources */,
+				1F2CC4D02745250800264765 /* UrlImageModel.swift in Sources */,
 				1F2CC4BA2745218000264765 /* ContentView.swift in Sources */,
+				1F2CC4CA274524DE00264765 /* UrlImageView.swift in Sources */,
+				1F5FFB452745288600B3A84A /* UrlWebView.swift in Sources */,
 				1F2CC4B82745218000264765 /* NewsFeedAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
