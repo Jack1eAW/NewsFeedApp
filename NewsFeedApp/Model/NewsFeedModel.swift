@@ -16,7 +16,7 @@ class NewsFeed: ObservableObject, RandomAccessCollection {
     var endIndex: Int { newsListItems.endIndex }
     var loadStatus = LoadStatus.ready(nextPage: 1)
     
-    var urlBase = "https://newsapi.org/v2/everything?q=apple&apiKey=6ffeaceffa7949b68bf9d68b9f06fd33&language=en&page="
+    var urlBase = "https://newsapi.org/v2/everything?q=apple&apiKey=061d136fc63b47359ea6b89300f4f426&language=en&page="
     
     init() {
         loadMoreArticles()
@@ -26,7 +26,7 @@ class NewsFeed: ObservableObject, RandomAccessCollection {
         return newsListItems[position]
     }
     
-    func loadMoreArticles(currentItem: NewsListItem? = nil) {
+    func loadMoreArticles(currentItem: NewsListItem? = nil)  {
         
         if !shouldLoadMoreData(currentItem: currentItem) {
             return
@@ -112,7 +112,7 @@ class NewsApiResponse: Codable {
 }
 
 class NewsListItem: Identifiable, Codable {
-    var uuid = UUID()
+    var uuid = UUID() // Однозначная идентификация каждого элемента из списка новостей 
     
     var author: String?
     var title: String

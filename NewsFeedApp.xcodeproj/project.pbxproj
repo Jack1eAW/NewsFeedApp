@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F257D8927455C4B00E721BD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F257D8827455C4B00E721BD /* MainView.swift */; };
 		1F2CC4B82745218000264765 /* NewsFeedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CC4B72745218000264765 /* NewsFeedAppApp.swift */; };
 		1F2CC4BA2745218000264765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CC4B92745218000264765 /* ContentView.swift */; };
 		1F2CC4BC2745218200264765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2CC4BB2745218200264765 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F257D8827455C4B00E721BD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1F2CC4B42745218000264765 /* NewsFeedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsFeedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2CC4B72745218000264765 /* NewsFeedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedAppApp.swift; sourceTree = "<group>"; };
 		1F2CC4B92745218000264765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,7 +66,6 @@
 				1F2CC4C62745247900264765 /* View */,
 				1F2CC4C52745246D00264765 /* Model */,
 				1F2CC4B72745218000264765 /* NewsFeedAppApp.swift */,
-				1F2CC4B92745218000264765 /* ContentView.swift */,
 				1F2CC4BB2745218200264765 /* Assets.xcassets */,
 				1F2CC4BD2745218200264765 /* Preview Content */,
 			);
@@ -91,6 +92,8 @@
 		1F2CC4C62745247900264765 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F257D8827455C4B00E721BD /* MainView.swift */,
+				1F2CC4B92745218000264765 /* ContentView.swift */,
 				1F2CC4C7274524CB00264765 /* NewsFeedView.swift */,
 				1F2CC4C9274524DE00264765 /* UrlImageView.swift */,
 				1F5FFB442745288600B3A84A /* UrlWebView.swift */,
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F2CC4C8274524CB00264765 /* NewsFeedView.swift in Sources */,
+				1F257D8927455C4B00E721BD /* MainView.swift in Sources */,
 				1F2CC4CE274524FA00264765 /* NewsFeedModel.swift in Sources */,
 				1F2CC4D02745250800264765 /* UrlImageModel.swift in Sources */,
 				1F2CC4BA2745218000264765 /* ContentView.swift in Sources */,
